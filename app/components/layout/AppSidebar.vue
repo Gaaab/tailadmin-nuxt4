@@ -316,8 +316,8 @@ const menuGroups = [
         icon: MailIcon,
         name: 'Email',
         subItems: [
-          { name: 'Inbox', path: '/inbox', pro: true },
-          { name: 'Details', path: '/inbox-details', pro: true },
+          { name: 'Inbox', path: '/Email/EmailInboxPage', pro: true },
+          { name: 'Details', path: '/Email/EmailDetailsPage', pro: true },
         ],
       },
       {
@@ -325,8 +325,8 @@ const menuGroups = [
         name: 'Support Ticket',
         new: true,
         subItems: [
-          { name: 'Ticket List', path: '/ticket-list' },
-          { name: 'Ticket Reply', path: '/ticket-reply' },
+          { name: 'Ticket List', path: '/Support/SupportList' },
+          { name: 'Ticket Reply', path: '/Support/SupportReply' },
         ],
       },
     ],
@@ -338,9 +338,9 @@ const menuGroups = [
         icon: PieChartIcon,
         name: 'Charts',
         subItems: [
-          { name: 'Line Chart', path: '/line-chart', pro: true },
-          { name: 'Bar Chart', path: '/bar-chart', pro: true },
-          { name: 'Doughnut Chart', path: '/doughnut-chart', pro: true },
+          { name: 'Line Chart', path: '/Chart/LineChart/LineChart', pro: true },
+          { name: 'Bar Chart', path: '/Chart/BarChart/BarChart', pro: true },
+          { name: 'Doughnut Chart', path: '/Chart/DoughnutChart/DoughnutChart', pro: true },
         ],
       },
       {
@@ -349,10 +349,10 @@ const menuGroups = [
         subItems: [
           { name: 'Alerts', path: '/UiElements/alerts', pro: false },
           { name: 'Avatars', path: '/UiElements/avatars', pro: false },
-          { name: 'Badge', path: '/UiElements/badge', pro: false },
-          { name: 'Breadcrumb', path: '/UiElements/breadcrumb', pro: true },
+          { name: 'Badge', path: '/UiElements/badges', pro: false },
+          { name: 'Breadcrumb', path: '/UiElements/breadcrumbs', pro: true },
           { name: 'Buttons', path: '/UiElements/buttons', pro: false },
-          { name: 'Buttons Group', path: '/UiElements/buttons-group', pro: true },
+          { name: 'Buttons Group', path: '/UiElements/ButtonsGroup', pro: true },
           { name: 'Cards', path: '/UiElements/cards', pro: true },
           { name: 'Carousel', path: '/UiElements/carousel', pro: true },
           { name: 'Dropdowns', path: '/UiElements/dropdowns', pro: true },
